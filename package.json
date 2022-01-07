@@ -1,9 +1,12 @@
 {
-  "name": "node-red-project",
-  "description": "A Node-RED Project",
-  "version": "0.0.1",
-  "private": true,
-  "dependencies": {
-    "node-red-contrib-calc": "latest"
-  }
+	"name": "node-red-project",
+	"description": "A Node-RED Project",
+	"version": "0.0.1",
+	"private": true,
+	"dependencies": {
+		"node-red-contrib-calc": "latest"
+	},
+	"scripts": {
+		"start": "node $NODE_OPTIONS node_modules/node-red/red.js $FLOWS"
+	}
 }
