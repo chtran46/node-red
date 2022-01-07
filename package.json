@@ -12,7 +12,8 @@
 		"node-red-contrib-telegrambot": "latest",
 		"node-red-node-ui-table": "latest",
 		"node-red-contrib-slack": "latest",
-		"node-red-contrib-looptimer2": "latest"
+		"node-red-contrib-looptimer2": "latest",
+		"node-red-debugger": "latest"
 	},
 	"engines": {
 		"node": ">=12"
