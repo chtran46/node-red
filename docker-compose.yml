@@ -1,0 +1,17 @@
+services:
+  node-red:
+    image: ctran46/node-red:custom
+    restart: always
+    environment:
+      - TZ=${TM_TZ}
+    volumes:
+      - node-red-data:/data
+    ports:
+      - "1880:1880"
+networks:
+  default:
+    external: true
+    name: "teslamate_default"
+
+volumes:
+  node-red-data:
