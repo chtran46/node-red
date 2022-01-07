@@ -5,7 +5,14 @@
 	"private": true,
 	"dependencies": {
 		"node-red": "2.1.4",
-		"node-red-contrib-calc": "latest"		
+		"node-red-contrib-calc": "latest",
+		"node-red-contrib-simpletime": "latest",
+		"node-red-dashboard": "latest",
+		"node-red-node-email": "latest",
+		"node-red-contrib-telegrambot": "latest",
+		"node-red-node-ui-table": "latest",
+		"node-red-contrib-slack": "latest",
+		"node-red-contrib-looptimer2": "latest"
 	},
 	"engines": {
 		"node": ">=12"
