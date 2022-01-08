@@ -13,7 +13,8 @@
 		"node-red-node-ui-table": "latest",
 		"node-red-contrib-slack": "latest",
 		"node-red-contrib-looptimer2": "latest",
-		"node-red-debugger": "latest"
+		"node-red-debugger": "latest",
+		"node-red-contrib-web-worldmap": "latest"
 	},
 	"engines": {
 		"node": ">=12"
