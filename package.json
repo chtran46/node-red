@@ -14,7 +14,8 @@
 		"node-red-contrib-slack": "latest",
 		"node-red-contrib-looptimer2": "latest",
 		"node-red-debugger": "latest",
-		"node-red-contrib-web-worldmap": "latest"
+		"node-red-contrib-web-worldmap": "latest",
+		"node-red-contrib-moment": "latest"
 	},
 	"engines": {
 		"node": ">=12"
